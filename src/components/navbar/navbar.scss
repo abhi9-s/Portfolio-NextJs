@@ -1,0 +1,48 @@
+@import "../../app.scss";
+
+.navbar {
+  height: 100px;
+
+  .wrapper {
+    max-width: max-content;
+    margin: auto;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+
+
+    @include mobile {
+      justify-content: flex-end;
+      padding: 20px;
+      margin-right: 0px;
+    }
+
+    span {
+      font-weight: bold;
+
+      @include mobile {
+        display: none;
+      }
+    }
+
+    .social {
+      display: flex;
+      gap: 20px;
+      @include mobile {
+        gap: 16px;
+      }
+      img {
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+        @include mobile {
+          width: 24px;
+          height: 24px;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}
