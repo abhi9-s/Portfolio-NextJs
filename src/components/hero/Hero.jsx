@@ -77,7 +77,7 @@ const Hero = () => {
         Eat Sleep Code Repeat
       </motion.div>
       <div className="imageContainer">
-        <img src="/pixelcut-export.png" alt="Big Statue of Mine LOL" />
+        <img src="./pixelcut-export.png" alt="Big Statue of Mine LOL" />
       </div>
     </div>
   );
